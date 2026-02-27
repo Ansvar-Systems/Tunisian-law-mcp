@@ -1,0 +1,7 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Tunisia Law MCP",
+  "jurisdiction": "TN",
+  "provisions": []
+}
