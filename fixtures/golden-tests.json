@@ -2,6 +2,113 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "Tunisia Law MCP",
-  "description": "Golden contract tests for the Tunisia Law MCP -- add tests after first ingestion",
-  "tests": []
+  "description": "Golden contract tests for the Tunisia Law MCP",
+  "tests": [
+    {
+      "id": "tn-search-001",
+      "category": "search",
+      "description": "Search for data protection provisions in Arabic",
+      "tool": "search_legislation",
+      "input": {
+        "query": "حماية المعطيات الشخصية"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["المعطيات"]
+      }
+    },
+    {
+      "id": "tn-search-002",
+      "category": "search",
+      "description": "Search for cybersecurity provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "السلامة المعلوماتية"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "any_result_contains": ["المعلوماتية"]
+      }
+    },
+    {
+      "id": "tn-search-003",
+      "category": "search",
+      "description": "Search for privacy and personal life provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "الحياة الخاصة"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["الخاصة"]
+      }
+    },
+    {
+      "id": "tn-provision-001",
+      "category": "provision",
+      "description": "Get Article 24 of the Constitution (privacy)",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "constitution-2022",
+        "article": "24"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["الحياة الخاصة"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "tn-provision-002",
+      "category": "provision",
+      "description": "Get Article 1 of the Data Protection Law",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "loi-63-2004",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["المعطيات الشخصية"],
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "tn-about-001",
+      "category": "about",
+      "description": "Verify about/metadata endpoint runs without error",
+      "tool": "about",
+      "input": {},
+      "assertions": {
+        "result_not_empty": true
+      }
+    },
+    {
+      "id": "tn-search-004",
+      "category": "search",
+      "description": "Search for startup / innovation provisions",
+      "tool": "search_legislation",
+      "input": {
+        "query": "المؤسسات الناشئة"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "any_result_contains": ["الناشئة"]
+      }
+    },
+    {
+      "id": "tn-edge-001",
+      "category": "edge",
+      "description": "Handle empty search gracefully",
+      "tool": "search_legislation",
+      "input": {
+        "query": "xyznonexistent123"
+      },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
 }

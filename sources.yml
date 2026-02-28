@@ -6,27 +6,29 @@ jurisdiction: "TN"
 sources:
   - name: "Tunisia Official Legal Database"
     authority: "Government of Tunisia"
-    official_portal: "https://legislation.tn"
-    canonical_identifier: "TBD"
+    official_portal: "http://www.legislation.tn"
+    canonical_identifier: "legislation.tn"
     retrieval_method: "HTML"
     api_documentation: "N/A"
-    update_frequency: "TBD"
-    last_ingested: "PENDING_FIRST_INGEST"
+    update_frequency: "as enacted"
+    last_ingested: "2026-02-28"
     license_or_terms:
       type: "Government Publication"
-      url: "https://legislation.tn"
+      url: "http://www.legislation.tn"
       summary: "Official government legal database; legislation is public domain as government publication"
     coverage:
-      scope: "TBD -- update after census"
-      limitations: "TBD -- update after census"
+      scope: "30 core laws covering constitution, data protection, cybersecurity, e-commerce, telecommunications, banking, AML, labor, investment, procurement"
+      limitations: "Curated census (portal often inaccessible). Does not include subsidiary legislation or ministerial orders."
     languages:
-      - "en"
+      - "ar"
+      - "fr"
 
 data_freshness:
   automated_checks: false
-  check_frequency: "TBD"
-  last_verified: "2026-02-27"
+  check_frequency: "monthly"
+  last_verified: "2026-02-28"
 
 # Notes:
-# - Source URL: legislation.tn
-# - Update this file after completing census and first ingestion
+# - legislation.tn is frequently slow or inaccessible
+# - Census uses curated list of key laws
+# - Tunisia uses الفصل for articles (Francophone influence)
