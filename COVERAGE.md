@@ -1,6 +1,6 @@
-# Coverage Index -- TN Law MCP
+# Coverage Index -- Tunisia Law MCP
 
-> Auto-generated from census data. Do not edit manually.
+> Auto-generated from census + ingestion data. Do not edit manually.
 > Generated: 2026-02-28
 
 ## Source
@@ -8,41 +8,64 @@
 | Field | Value |
 |-------|-------|
 | Authority | Government of Tunisia |
-| Portal | [legislation.tn](http://www.legislation.tn) |
-| License | Government Publication |
+| Primary Source | [jurisitetunisie.com](https://www.jurisitetunisie.com) (33 codes, French HTML) |
+| Official Portal | [legislation.tn](http://www.legislation.tn) (often inaccessible) |
+| License | Government Publication (public domain) |
+| Languages | Arabic (ar), French (fr) |
 | Census date | 2026-02-28 |
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total laws enumerated | 30 |
-| Ingestable | 30 |
-| Ingested | 10 |
-| Excluded | 0 |
-| Provisions extracted | 66 |
-| Definitions extracted | 14 |
-| Database size | 0.2 MB |
-| FTS5 tokenizer | unicode61 (Arabic) |
-| **Coverage** | **33%** |
+| Total laws enumerated | 96 |
+| Ingested | 42 |
+| Inaccessible (legislation.tn 503) | 54 |
+| Provisions extracted | 542 |
+| Definitions extracted | 41 |
+| Database size | 1.2 MB |
+| **Coverage (ingested/enumerated)** | **43.8%** |
 
-## Ingested Laws
+## Coverage Breakdown
 
-| Law | Provisions | Definitions |
-|-----|-----------|-------------|
-| Constitution 2022 | 11 | 0 |
-| Data Protection Law (63/2004) | 10 | 3 |
-| Cybersecurity Law (5/2004) | 7 | 2 |
-| E-Commerce Law (83/2000) | 6 | 0 |
-| Telecommunications Code (1/2001) | 6 | 2 |
-| Access to Information Law (22/2016) | 6 | 2 |
-| AML/CTF Law (26/2015) | 5 | 2 |
-| Banking Law (48/2016) | 5 | 2 |
-| Startup Act (20/2018) | 5 | 1 |
-| Investment Law (71/2016) | 5 | 0 |
+| Source | Laws | Provisions | Status |
+|--------|------|-----------|--------|
+| jurisitetunisie.com (scraped) | 33 | 476 | Automated HTML scraping |
+| legislation.tn (curated seeds) | 9 | 66 | Manual curation (portal 503) |
+| legislation.tn (inaccessible) | 54 | -- | HTTP 503 -- needs VPN or portal recovery |
+| **Total** | **42** | **542** | |
 
-## Notes
+## Top Laws by Provision Count
 
-- Tunisia uses "الفصل" (fasl) for articles, not "المادة" (madda)
-- legislation.tn portal frequently returns HTTP 503
-- Full corpus ingestion requires VPN or scheduled retry
+| Title | French Title | Provisions |
+|-------|-------------|-----------|
+| المجلة الجزائية | Code Penal | 96 |
+| دستور الجمهورية التونسية 2022 | Constitution 2022 | 81 |
+| مجلة التحكيم | Code de l'Arbitrage | 49 |
+| مجلة الضريبة | Code IRPP/IS | 40 |
+| مجلة هيئات التوظيف الجماعي | Code OPC | 29 |
+| مجلة الاتصالات | Code des Telecommunications | 29 |
+| مجلة حماية التراث | Code du Patrimoine | 27 |
+| مجلة الصحافة | Code de la Presse | 25 |
+| مجلة المرافعات المدنية | Code de Proc. Civile | 24 |
+| مجلة الشركات التجارية | Code des Societes | 23 |
+| مجلة الطرقات | Code de la Route | 22 |
+| مجلة الجباية المحلية | Code de la Fiscalite Locale | 13 |
+
+## Not Yet Ingested (54 laws)
+
+These laws are enumerated in the census but legislation.tn returns HTTP 503. They will be ingested when the portal becomes available or via the VPN ingestion pipeline.
+
+| Category | Count | Examples |
+|----------|-------|---------|
+| Codes (no jurisite text) | 5 | Customs, Water, Forest, Mining, Maritime Ports |
+| Individual laws | 30+ | Data Protection impl., Competition, Banking, Environment |
+| Decrees | 8 | Public Procurement, AML implementation, Anti-corruption |
+| Decree-laws | 5 | Press freedom, Audiovisual, Administrative access |
+
+## Technical Notes
+
+- FTS5 uses `tokenize='unicode61'` for Arabic + French full-text search
+- Tunisia uses "الفصل" (fasl) for articles in Arabic, "Article N" in French
+- Parser auto-detects French vs Arabic content and dispatches to appropriate handler
+- Jurisitetunisie.com menu pages use JavaScript-based expanding navigation; some codes have incomplete sub-page discovery

@@ -1,14 +1,16 @@
 /**
- * Rate-limited HTTP client for Tunisia Law (legislation.tn)
+ * Rate-limited HTTP client for Tunisia Law
  *
  * - 500ms minimum delay between requests (be respectful to government servers)
+ * - 15s timeout per request (government servers are often slow)
  * - User-Agent header identifying the MCP
- * - Fetches structured AKN HTML from legislation.tn
+ * - Fetches HTML from jurisitetunisie.com + legislation.tn
  * - No auth needed (Government Open Data)
  */
 
 const USER_AGENT = 'tunisian-law-mcp/1.0 (https://github.com/Ansvar-Systems/tunisian-law-mcp; hello@ansvar.ai)';
 const MIN_DELAY_MS = 500;
+const REQUEST_TIMEOUT_MS = 15_000;
 
 let lastRequestTime = 0;
 
@@ -29,38 +31,68 @@ export interface FetchResult {
 }
 
 /**
- * Fetch a URL with rate limiting and proper headers.
- * Retries up to 3 times on 429/5xx errors with exponential backoff.
+ * Fetch a URL with rate limiting, timeout, and proper headers.
+ * Retries on 429/5xx errors with exponential backoff.
  */
-export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<FetchResult> {
+export async function fetchWithRateLimit(url: string, maxRetries = 1): Promise<FetchResult> {
   await rateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'text/html, */*',
-      },
-      redirect: 'follow',
-    });
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
-    if (response.status === 429 || response.status >= 500) {
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': USER_AGENT,
+          'Accept': 'text/html, */*',
+          'Accept-Language': 'fr,ar;q=0.9,en;q=0.8',
+        },
+        redirect: 'follow',
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+
+      if (response.status === 429 || response.status >= 500) {
+        if (attempt < maxRetries) {
+          const backoff = Math.pow(2, attempt + 1) * 1000;
+          console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
+          await new Promise(resolve => setTimeout(resolve, backoff));
+          continue;
+        }
+      }
+
+      const body = await response.text();
+      return {
+        status: response.status,
+        body,
+        contentType: response.headers.get('content-type') ?? '',
+        url: response.url,
+      };
+    } catch (error) {
       if (attempt < maxRetries) {
         const backoff = Math.pow(2, attempt + 1) * 1000;
-        console.log(`  HTTP ${response.status} for ${url}, retrying in ${backoff}ms...`);
+        const msg = error instanceof Error ? error.message : String(error);
+        console.log(`  Fetch error for ${url}: ${msg.substring(0, 60)}, retrying in ${backoff}ms...`);
         await new Promise(resolve => setTimeout(resolve, backoff));
         continue;
       }
-    }
 
-    const body = await response.text();
-    return {
-      status: response.status,
-      body,
-      contentType: response.headers.get('content-type') ?? '',
-      url: response.url,
-    };
+      // Return a synthetic failure response instead of throwing
+      return {
+        status: 0,
+        body: '',
+        contentType: '',
+        url,
+      };
+    }
   }
 
-  throw new Error(`Failed to fetch ${url} after ${maxRetries} retries`);
+  return {
+    status: 0,
+    body: '',
+    contentType: '',
+    url,
+  };
 }

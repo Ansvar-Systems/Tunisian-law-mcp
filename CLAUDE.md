@@ -1,4 +1,4 @@
-# Tunisia Law MCP Server — Developer Guide
+# Tunisia Law MCP Server -- Developer Guide
 
 ## Git Workflow
 
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-Tunisia Law MCP server providing Tunisian legislation search via Model Context Protocol. Strategy A deployment (Vercel, bundled SQLite DB). Covers data protection, cybercrimes, ICT, companies, consumer protection, and other key Acts.
+Tunisia Law MCP server providing Tunisian legislation search via Model Context Protocol. Strategy A deployment (Vercel, bundled SQLite DB). Covers constitution, codes (penal, civil, commercial, labor, tax, etc.), data protection, cybersecurity, e-commerce, banking, environment, and sector-specific laws.
 
 ## Architecture
 
@@ -22,11 +22,12 @@ Tunisia Law MCP server providing Tunisian legislation search via Model Context P
 
 - All database queries use parameterized statements (never string interpolation)
 - FTS5 queries go through `buildFtsQueryVariants()` with primary + fallback strategy
+- FTS5 uses `tokenize='unicode61'` for Arabic text support
 - User input is sanitized via `sanitizeFtsInput()` before FTS5 queries
 - Every tool returns `ToolResponse<T>` with `results` + `_metadata` (freshness, disclaimer)
 - Tool descriptions are written for LLM agents -- explain WHEN and WHY to use each tool
 - Capability-gated tools only appear in `tools/list` when their DB tables exist
-- Tunisia uses "Section N" for Acts and "Article N" for the Constitution
+- Tunisia uses "الفصل N" (Article N) for articles in Arabic, "Article N" in French texts
 
 ## Testing
 
@@ -44,29 +45,34 @@ Tunisia Law MCP server providing Tunisian legislation search via Model Context P
 
 ## Data Pipeline
 
-1. `scripts/ingest.ts` -> fetches from Tunisia Law -> JSON seed files in `data/seed/`
-2. `scripts/build-db.ts` -> seed JSON -> SQLite database in `data/database.db`
-3. `scripts/drift-detect.ts` -> verifies upstream content hasn't changed
+1. `scripts/census.ts` -> enumerates all discoverable Tunisian laws -> `data/census.json`
+2. `scripts/ingest.ts` -> fetches from jurisitetunisie.com + legislation.tn -> JSON seed files in `data/seed/`
+3. `scripts/build-db.ts` -> seed JSON -> SQLite database in `data/database.db`
+4. `scripts/drift-detect.ts` -> verifies upstream content hasn't changed
 
-## Data Source
+## Data Sources
 
-- **Tunisia Law** (tunisialaw.org) -- National Council for Law Reporting
-- **License:** Government Open Data
-- **Languages:** English (en) is the primary legal language; Swahili (sw) for some documents
-- **Coverage:** All Acts of Parliament, subsidiary legislation, Constitution of Tunisia 2010, selected case law
+- **Primary:** jurisitetunisie.com (33+ codes in structured French HTML)
+- **Fallback:** legislation.tn (official government portal, often inaccessible)
+- **Supplementary:** africa-laws.org, FAOLEX, ILO NATLEX (sector laws)
+- **License:** Government Publication (public domain)
+- **Languages:** Arabic (ar) is the official language; French (fr) is the administrative/legal language
+- **Coverage:** Constitution, 33 major codes, 40+ individual laws, decrees, and decree-laws
 
 ## Tunisia-Specific Notes
 
-- Tunisia uses a common law legal system inherited from British colonial administration
-- The Constitution of Tunisia 2010 is the supreme law (Article 2)
-- Legislation is identified by Act title + year (e.g., "Data Protection Act 2019")
-- Citations follow the pattern: "Section N, [Act Title Year]" or shorthand "s N"
-- For the Constitution: "Article N, Constitution of Tunisia 2010"
-- The Data Protection Act 2019 was significantly influenced by EU GDPR
-- Some sections of the Computer Misuse and Cybercrimes Act 2018 are suspended by court order
-- The Office of the Data Protection Commissioner (ODPC) is the data protection supervisory authority
+- Tunisia uses a **civil law system** based on the French model
+- The **Constitution of 2022** is the current supreme law (replacing the 2014 constitution)
+- Tunisia is bilingual: Arabic (official) + French (administrative/legal)
+- Articles are called "الفصل" (fasl) in Arabic, "Article" in French -- NOT "المادة"
+- Legislation hierarchy: Constitution > Organic Laws > Laws > Decree-Laws > Decrees > Orders
+- Citations follow: "الفصل N من القانون عدد XX لسنة YYYY" or "Article N, Loi n YYYY-XX"
+- "مجلة" (majalla) = Code (codified collection of laws)
+- The INPDP (Instance Nationale de Protection des Données Personnelles) is the data protection authority
+- The 2004 Data Protection Law (Loi 2004-63) predates EU GDPR; update expected
+- The ANSI (Agence Nationale de la Sécurité Informatique) oversees cybersecurity under Law 2004-5
 
 ## Deployment
 
 - Vercel Strategy A: DB bundled in `data/database.db`, included via `vercel.json` includeFiles
-- npm package: `@ansvar/tunisia-law-mcp` with bin entry for stdio
+- npm package: `@ansvar/tunisian-law-mcp` with bin entry for stdio

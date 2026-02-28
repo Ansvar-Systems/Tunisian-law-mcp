@@ -1,9 +1,27 @@
 # sources.yml
-schema_version: "1.0"
+schema_version: "2.0"
 mcp_name: "Tunisia Law MCP"
 jurisdiction: "TN"
 
 sources:
+  - name: "JurisiteTunisie"
+    authority: "Jurisite Tunisie (non-profit legal portal)"
+    official_portal: "https://www.jurisitetunisie.com"
+    canonical_identifier: "jurisitetunisie.com"
+    retrieval_method: "HTML scraping"
+    api_documentation: "N/A"
+    update_frequency: "as enacted"
+    last_ingested: "2026-02-28"
+    license_or_terms:
+      type: "Non-profit legal information"
+      url: "https://www.jurisitetunisie.com"
+      summary: "Non-profit legal portal providing Tunisian codes and laws in full text (French)"
+    coverage:
+      scope: "33 major codes in full text (French): Penal, Civil, Commercial, Labor, Tax, Insurance, Companies, Arbitration, Telecommunications, Urban Planning, and more"
+      limitations: "French text only (no Arabic). Some codes still 'in progress' on the portal."
+    languages:
+      - "fr"
+
   - name: "Tunisia Official Legal Database"
     authority: "Government of Tunisia"
     official_portal: "http://www.legislation.tn"
@@ -17,8 +35,8 @@ sources:
       url: "http://www.legislation.tn"
       summary: "Official government legal database; legislation is public domain as government publication"
     coverage:
-      scope: "30 core laws covering constitution, data protection, cybersecurity, e-commerce, telecommunications, banking, AML, labor, investment, procurement"
-      limitations: "Curated census (portal often inaccessible). Does not include subsidiary legislation or ministerial orders."
+      scope: "Individual laws, decrees, decree-laws (Arabic text). Constitution, data protection, cybersecurity, e-commerce, banking, investment, etc."
+      limitations: "Portal frequently inaccessible (503 errors). Arabic HTML structure varies."
     languages:
       - "ar"
       - "fr"
@@ -29,6 +47,7 @@ data_freshness:
   last_verified: "2026-02-28"
 
 # Notes:
-# - legislation.tn is frequently slow or inaccessible
-# - Census uses curated list of key laws
-# - Tunisia uses الفصل for articles (Francophone influence)
+# - jurisitetunisie.com is the primary source (33 codes, structured French HTML)
+# - legislation.tn is the fallback (often inaccessible, 503 errors)
+# - Tunisia uses الفصل for articles (Francophone influence), Article N in French
+# - Bilingual corpus: Arabic (official) + French (administrative/legal)

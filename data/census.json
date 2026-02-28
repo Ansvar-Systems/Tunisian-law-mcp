@@ -1,21 +1,48 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "jurisdiction": "TN",
   "jurisdiction_name": "Tunisia",
   "portal": "http://www.legislation.tn",
   "census_date": "2026-02-28",
   "agent": "claude-opus-4-6",
   "summary": {
-    "total_laws": 30,
-    "ingestable": 27,
+    "total_laws": 96,
+    "ingestable": 33,
     "ocr_needed": 0,
-    "inaccessible": 3,
+    "inaccessible": 63,
     "excluded": 0
   },
   "laws": [
     {
+      "id": "decret-1991-2005",
+      "title": "الأمر عدد 1991 لسنة 2005 المتعلق بدراسة المؤثرات على المحيط",
+      "title_fr": "Décret n° 2005-1991 relatif à l'étude d'impact sur l'environnement",
+      "identifier": "decret/2005/1991",
+      "url": "http://www.legislation.tn/fr/detailtexte/Decret-num-2005-1991",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "decret-3003-2007",
+      "title": "الأمر عدد 3003 لسنة 2007 المتعلق بالهيئة الوطنية لحماية المعطيات الشخصية",
+      "title_fr": "Décret n° 2007-3003 fixant les modalités de fonctionnement de l'instance nationale de protection des données à caractère personnel",
+      "identifier": "decret/2007/3003",
+      "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-num-2007-3003-du-27-11-2007",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-22-2016",
       "title": "القانون الأساسي عدد 22 لسنة 2016 المتعلق بالحق في النفاذ إلى المعلومة",
+      "title_fr": "Loi organique n° 2016-22 relative au droit d'accès à l'information",
       "identifier": "loi/2016/22",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-22-du-24-03-2016-jort-2016-026__2016026000221",
       "status": "in_force",
@@ -26,8 +53,22 @@
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-23-2012",
+      "title": "القانون الأساسي عدد 23 لسنة 2012 المتعلق بالهيئة العليا المستقلة للانتخابات",
+      "title_fr": "Loi organique n° 2012-23 relative à l'instance supérieure indépendante pour les élections",
+      "identifier": "loi/2012/23",
+      "url": "http://www.legislation.tn/en/detailtexte/Loi-num-2012-23-du-20-12-2012-jort-2012-101__2012101000231",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-26-2015",
       "title": "القانون الأساسي عدد 26 لسنة 2015 المتعلق بمكافحة الإرهاب ومنع غسل الأموال",
+      "title_fr": "Loi organique n° 2015-26 relative à la lutte contre le terrorisme et la répression du blanchiment d'argent",
       "identifier": "loi/2015/26",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2015-26-du-07-08-2015-jort-2015-063__2015063000261",
       "status": "in_force",
@@ -38,8 +79,35 @@
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-43-2013",
+      "title": "القانون الأساسي عدد 43 لسنة 2013 المتعلق بالهيئة الوطنية للوقاية من التعذيب",
+      "title_fr": "Loi organique n° 2013-43 relative à l'instance nationale pour la prévention de la torture",
+      "identifier": "loi/2013/43",
+      "url": "http://www.legislation.tn/en/detailtexte/Loi-num-2013-43-du-23-10-2013-jort-2013-085__2013085000431",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-59-2017",
+      "title": "القانون الأساسي عدد 59 لسنة 2017 المتعلق بهيئة الحوكمة الرشيدة ومكافحة الفساد",
+      "title_fr": "Loi organique n° 2017-59 relative à l'instance de la bonne gouvernance et de la lutte contre la corruption",
+      "identifier": "loi/2017/59",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2017-59",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-63-2004",
       "title": "القانون الأساسي عدد 63 لسنة 2004 المتعلق بحماية المعطيات الشخصية",
+      "title_fr": "Loi organique n° 2004-63 relative à la protection des données à caractère personnel",
       "identifier": "loi/2004/63",
       "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-num-2007-3003-du-27-11-2007-jort-2007-096__2007096030033",
       "status": "in_force",
@@ -50,13 +118,26 @@
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-72-2016",
+      "title": "القانون الأساسي عدد 72 لسنة 2016 المتعلق بالموافقة على اتفاق باريس",
+      "title_fr": "Loi organique n° 2016-72 portant approbation de l'Accord de Paris sur le climat",
+      "identifier": "loi/2016/72",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-72",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-1-2001",
       "title": "القانون عدد 1 لسنة 2001 المتعلق بمجلة الاتصالات",
       "identifier": "loi/2001/1",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2001-1-du-15-01-2001-jort-2001-006__2001006000011",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 6,
       "ingestion_date": "2026-02-28"
@@ -64,11 +145,12 @@
     {
       "id": "loi-10-2017",
       "title": "القانون عدد 10 لسنة 2017 المتعلق بالإبلاغ عن الفساد وحماية المبلغين",
+      "title_fr": "Loi n° 2017-10 relative au signalement de la corruption et à la protection des lanceurs d'alerte",
       "identifier": "loi/2017/10",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2017-10-du-07-03-2017-jort-2017-020__2017020000101",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -76,11 +158,64 @@
     {
       "id": "loi-117-1992",
       "title": "القانون عدد 117 لسنة 1992 المتعلق بحماية المستهلك",
+      "title_fr": "Loi n° 92-117 relative à la protection du consommateur",
       "identifier": "loi/1992/117",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1992-117-du-07-12-1992-jort-1992-083__1992083011701",
       "status": "amended",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-12-2015",
+      "title": "القانون عدد 12 لسنة 2015 المتعلق بإنتاج الكهرباء من الطاقات المتجددة",
+      "title_fr": "Loi n° 2015-12 relative à la production d'électricité à partir des énergies renouvelables",
+      "identifier": "loi/2015/12",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2015-12",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-13-1994",
+      "title": "القانون عدد 13 لسنة 1994 المتعلق بممارسة الصيد البحري",
+      "title_fr": "Loi n° 94-13 relative à l'exercice de la pêche",
+      "identifier": "loi/1994/13",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1994-13",
+      "status": "amended",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-17-2024",
+      "title": "القانون عدد 17 لسنة 2024 المتعلق بالاتجار الدولي في الأنواع المهددة بالانقراض",
+      "title_fr": "Loi n° 2024-17 relative au commerce international des espèces menacées d'extinction",
+      "identifier": "loi/2024/17",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2024-17",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-20-2001",
+      "title": "القانون عدد 20 لسنة 2001 المتعلق بحماية تصاميم الدوائر المتكاملة",
+      "title_fr": "Loi n° 2001-20 relative à la protection des schémas de configuration des circuits intégrés",
+      "identifier": "loi/2001/20",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2001-20-du-06-02-2001",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -88,14 +223,54 @@
     {
       "id": "loi-20-2018",
       "title": "القانون عدد 20 لسنة 2018 المتعلق بالمؤسسات الناشئة",
+      "title_fr": "Loi n° 2018-20 relative aux start-up",
       "identifier": "loi/2018/20",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2018-20-du-17-04-2018-jort-2018-032__2018032000201",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 5,
       "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "loi-21-2001",
+      "title": "القانون عدد 21 لسنة 2001 المتعلق بحماية الرسوم والنماذج الصناعية",
+      "title_fr": "Loi n° 2001-21 relative à la protection des dessins et modèles industriels",
+      "identifier": "loi/2001/21",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2001-21-du-06-02-2001",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-25-2019",
+      "title": "القانون عدد 25 لسنة 2019 المتعلق بالسلامة الصحية للمنتجات الغذائية",
+      "title_fr": "Loi n° 2019-25 relative à la sécurité sanitaire des produits alimentaires",
+      "identifier": "loi/2019/25",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2019-25",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-30-1999",
+      "title": "القانون عدد 30 لسنة 1999 المتعلق بالفلاحة البيولوجية",
+      "title_fr": "Loi n° 99-30 relative à l'agriculture biologique",
+      "identifier": "loi/1999/30",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1999-30",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
     },
     {
       "id": "loi-30-2016",
@@ -104,7 +279,20 @@
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-30-du-05-05-2016-jort-2016-039__2016039000301",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-34-2007",
+      "title": "القانون عدد 34 لسنة 2007 المتعلق بنوعية الهواء",
+      "title_fr": "Loi n° 2007-34 relative à la qualité de l'air",
+      "identifier": "loi/2007/34",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2007-34",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -112,11 +300,25 @@
     {
       "id": "loi-35-2016",
       "title": "القانون عدد 35 لسنة 2016 المتعلق بضبط النظام الأساسي للبنك المركزي التونسي",
+      "title_fr": "Loi n° 2016-35 portant fixation du statut de la Banque Centrale de Tunisie",
       "identifier": "loi/2016/35",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-35-du-25-04-2016-jort-2016-035__2016035000351",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-36-1994",
+      "title": "القانون عدد 36 لسنة 1994 المتعلق بالملكية الأدبية والفنية",
+      "title_fr": "Loi n° 94-36 relative à la propriété littéraire et artistique",
+      "identifier": "loi/1994/36",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1994-36-du-24-02-1994",
+      "status": "amended",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -124,11 +326,12 @@
     {
       "id": "loi-36-2001",
       "title": "القانون عدد 36 لسنة 2001 المتعلق بحماية حقوق المؤلف والحقوق المجاورة",
+      "title_fr": "Loi n° 2001-36 relative à la protection des marques de fabrique, de commerce et de services",
       "identifier": "loi/2001/36",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2001-36-du-17-04-2001-jort-2001-032__2001032000361",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -136,11 +339,38 @@
     {
       "id": "loi-36-2015",
       "title": "القانون عدد 36 لسنة 2015 المتعلق بإعادة تنظيم المنافسة والأسعار",
+      "title_fr": "Loi n° 2015-36 relative à la réorganisation de la concurrence et des prix",
       "identifier": "loi/2015/36",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2015-36-du-15-09-2015-jort-2015-076__2015076000361",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-36-2016",
+      "title": "القانون عدد 36 لسنة 2016 المتعلق بالإجراءات الجماعية",
+      "title_fr": "Loi n° 2016-36 relative aux procédures collectives",
+      "identifier": "loi/2016/36",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-36",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-37-1997",
+      "title": "القانون عدد 37 لسنة 1997 المتعلق بالنقل البري للمواد الخطرة",
+      "title_fr": "Loi n° 97-37 relative au transport par route des matières dangereuses",
+      "identifier": "loi/1997/37",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1997-37",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -152,7 +382,98 @@
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1996-38-du-03-06-1996-jort-1996-045__1996045000381",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-39-1998",
+      "title": "القانون عدد 39 لسنة 1998 المتعلق بالبيع بالتقسيط",
+      "title_fr": "Loi n° 98-39 relative aux ventes avec facilités de paiement",
+      "identifier": "loi/1998/39",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1998-39-du-02-06-1998",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-40-1998",
+      "title": "القانون عدد 40 لسنة 1998 المتعلق بأساليب البيع والإشهار التجاري",
+      "title_fr": "Loi n° 98-40 relative aux techniques de vente et à la publicité commerciale",
+      "identifier": "loi/1998/40",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1998-40-du-02-06-1998",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-41-1996",
+      "title": "القانون عدد 41 لسنة 1996 المتعلق بالنفايات وبمراقبة التصرف فيها وإزالتها",
+      "title_fr": "Loi n° 96-41 relative aux déchets et au contrôle de leur gestion et de leur élimination",
+      "identifier": "loi/1996/41",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1996-41",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-42-1999",
+      "title": "القانون عدد 42 لسنة 1999 المتعلق بالبذور والشتلات والمستنبطات النباتية",
+      "title_fr": "Loi n° 99-42 relative aux semences, plants et obtentions végétales",
+      "identifier": "loi/1999/42",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1999-42",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-44-1995",
+      "title": "القانون عدد 44 لسنة 1995 المتعلق بالسجل التجاري",
+      "title_fr": "Loi n° 95-44 relative au registre du commerce",
+      "identifier": "loi/1995/44",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1995-44-du-02-05-1995",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-46-2018",
+      "title": "القانون عدد 46 لسنة 2018 المتعلق بالتصريح بالمكاسب والمصالح ومكافحة الإثراء غير المشروع",
+      "title_fr": "Loi n° 2018-46 relative à la déclaration des biens et des intérêts et à la lutte contre l'enrichissement illicite",
+      "identifier": "loi/2018/46",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2018-46",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-47-1997",
+      "title": "القانون عدد 47 لسنة 1997 المتعلق بممارسة المهنة البيطرية",
+      "title_fr": "Loi n° 97-47 relative à l'exercice de la profession de médecin vétérinaire",
+      "identifier": "loi/1997/47",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1997-47",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -160,23 +481,38 @@
     {
       "id": "loi-48-2016",
       "title": "القانون عدد 48 لسنة 2016 المتعلق بالبنوك والمؤسسات المالية",
+      "title_fr": "Loi n° 2016-48 relative aux banques et aux établissements financiers",
       "identifier": "loi/2016/48",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-48-du-11-07-2016-jort-2016-058__2016058000481",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 5,
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-49-2009",
+      "title": "القانون عدد 49 لسنة 2009 المتعلق بالمناطق البحرية والساحلية المحمية",
+      "title_fr": "Loi n° 2009-49 relative aux aires marines et côtières protégées",
+      "identifier": "loi/2009/49",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2009-49",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-49-2015",
       "title": "القانون عدد 49 لسنة 2015 المتعلق بعقود الشراكة بين القطاع العام والقطاع الخاص",
+      "title_fr": "Loi n° 2015-49 relative aux contrats de partenariat public-privé",
       "identifier": "loi/2015/49",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2015-49-du-27-11-2015-jort-2015-097__2015097000491",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -184,23 +520,77 @@
     {
       "id": "loi-5-2004",
       "title": "القانون عدد 5 لسنة 2004 المتعلق بالسلامة المعلوماتية",
+      "title_fr": "Loi n° 2004-5 relative à la sécurité informatique",
       "identifier": "loi/2004/5",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2004-5-du-03-02-2004-jort-2004-010__2004010000051",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 7,
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-57-1999",
+      "title": "القانون عدد 57 لسنة 1999 المتعلق بتسميات المنشأ المراقبة",
+      "title_fr": "Loi n° 99-57 relative aux appellations d'origine contrôlées",
+      "identifier": "loi/1999/57",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1999-57",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-57-2000",
       "title": "القانون عدد 57 لسنة 2000 المتعلق بإسناد التوقيع الإلكتروني والتصديق عليه",
+      "title_fr": "Loi n° 2000-57 relative à la signature électronique et la certification",
       "identifier": "loi/2000/57",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2000-57-du-13-06-2000-jort-2000-048__2000048000571",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-62-2002",
+      "title": "القانون عدد 62 لسنة 2002 المتعلق بالألعاب الترويجية",
+      "title_fr": "Loi n° 2002-62 relative aux jeux promotionnels",
+      "identifier": "loi/2002/62",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2002-62",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-68-2007",
+      "title": "القانون عدد 68 لسنة 2007 المتعلق بتسميات المنشأ والبيانات الجغرافية",
+      "title_fr": "Loi n° 2007-68 relative aux appellations d'origine et aux indications géographiques",
+      "identifier": "loi/2007/68",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2007-68-du-27-12-2007",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-70-1995",
+      "title": "القانون عدد 70 لسنة 1995 المتعلق بالمحافظة على المياه والتربة",
+      "title_fr": "Loi n° 95-70 relative à la conservation des eaux et du sol",
+      "identifier": "loi/1995/70",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1995-70",
+      "status": "amended",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -208,26 +598,67 @@
     {
       "id": "loi-71-2016",
       "title": "القانون عدد 71 لسنة 2016 المتعلق بقانون الاستثمار",
+      "title_fr": "Loi n° 2016-71 portant loi de l'investissement",
       "identifier": "loi/2016/71",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2016-71-du-30-09-2016-jort-2016-081__2016081000711",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 5,
       "ingestion_date": "2026-02-28"
     },
     {
+      "id": "loi-72-1995",
+      "title": "القانون عدد 72 لسنة 1995 المتعلق بإحداث وكالة حماية وتهيئة الشريط الساحلي",
+      "title_fr": "Loi n° 95-72 portant création de l'Agence de protection et d'aménagement du littoral",
+      "identifier": "loi/1995/72",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1995-72",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "loi-73-1995",
+      "title": "القانون عدد 73 لسنة 1995 المتعلق بالملك العمومي البحري",
+      "title_fr": "Loi n° 95-73 relative au domaine public maritime",
+      "identifier": "loi/1995/73",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1995-73",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
       "id": "loi-83-2000",
       "title": "القانون عدد 83 لسنة 2000 المتعلق بالمبادلات والتجارة الإلكترونية",
+      "title_fr": "Loi n° 2000-83 relative aux échanges et au commerce électroniques",
       "identifier": "loi/2000/83",
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2000-83-du-09-08-2000-jort-2000-064__2000064000831",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": true,
       "provision_count": 6,
       "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "loi-84-2000",
+      "title": "القانون عدد 84 لسنة 2000 المتعلق ببراءات الاختراع",
+      "title_fr": "Loi n° 2000-84 relative aux brevets d'invention",
+      "identifier": "loi/2000/84",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2000-84-du-24-08-2000",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
     },
     {
       "id": "loi-93-2000",
@@ -236,31 +667,103 @@
       "url": "http://www.legislation.tn/fr/detailtexte/Code-num-2000-93-du-03-11-2000-jort-2000-089__2000089000931",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
+    },
+    {
+      "id": "loi-95-2005",
+      "title": "القانون عدد 95 لسنة 2005 المتعلق بتربية الماشية وبالمنتجات الحيوانية",
+      "title_fr": "Loi n° 2005-95 relative à l'élevage et aux produits animaux",
+      "identifier": "loi/2005/95",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2005-95",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "code-electoral",
+      "title": "المجلة الانتخابية",
+      "title_fr": "Code Électoral",
+      "identifier": "code/electoral",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/celect/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/celect/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-commerce",
+      "title": "المجلة التجارية",
+      "title_fr": "Code de Commerce",
+      "identifier": "code/commerce",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cc/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cc/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 3,
+      "ingestion_date": "2026-02-28"
     },
     {
       "id": "code-penal",
       "title": "المجلة الجزائية",
+      "title_fr": "Code Pénal",
       "identifier": "code/penal",
-      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2005-46-du-06-06-2005-jort-2005-046__2005046000461",
-      "status": "in_force",
-      "category": "act",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cp/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1005.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1010.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1015.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1020.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1025.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1030.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1035.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1040.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1045.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1050.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1055.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1060.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1065.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1070.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2005.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2010.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2015.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2020.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2025.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2030.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2035.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp2040.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/cp/cp3005.htm"
+      ],
+      "status": "amended",
+      "category": "code",
       "classification": "ingestable",
-      "ingested": false,
-      "provision_count": 0,
-      "ingestion_date": null
+      "ingested": true,
+      "provision_count": 96,
+      "ingestion_date": "2026-02-28"
     },
     {
       "id": "decret-1039-2014",
       "title": "المرسوم عدد 1039 لسنة 2014 المتعلق بتنظيم الصفقات العمومية",
+      "title_fr": "Décret n° 2014-1039 relatif à la réglementation des marchés publics",
       "identifier": "decret/2014/1039",
       "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-num-2014-1039-du-13-03-2014-jort-2014-024__2014024103901",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -268,11 +771,12 @@
     {
       "id": "decret-loi-115-2011",
       "title": "المرسوم عدد 115 لسنة 2011 المتعلق بحرية الصحافة والطباعة والنشر",
+      "title_fr": "Décret-loi n° 2011-115 relatif à la liberté de la presse, de l'imprimerie et de l'édition",
       "identifier": "decret-loi/2011/115",
       "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-loi-num-2011-115-du-02-11-2011-jort-2011-084__2011084011501",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -280,11 +784,25 @@
     {
       "id": "decret-loi-116-2011",
       "title": "المرسوم عدد 116 لسنة 2011 المتعلق بحرية الاتصال السمعي والبصري",
+      "title_fr": "Décret-loi n° 2011-116 relatif à la liberté de la communication audiovisuelle",
       "identifier": "decret-loi/2011/116",
       "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-loi-num-2011-116-du-02-11-2011-jort-2011-084__2011084011601",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "decret-loi-120-2011",
+      "title": "المرسوم عدد 120 لسنة 2011 المتعلق بمكافحة الفساد",
+      "title_fr": "Décret-loi n° 2011-120 relatif à la lutte contre la corruption",
+      "identifier": "decret-loi/2011/120",
+      "url": "http://www.legislation.tn/fr/detailtexte/Decret-loi-num-2011-120",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -292,11 +810,25 @@
     {
       "id": "decret-loi-41-2011",
       "title": "المرسوم عدد 41 لسنة 2011 المتعلق بالنفاذ إلى الوثائق الإدارية",
+      "title_fr": "Décret-loi n° 2011-41 relatif à l'accès aux documents administratifs",
       "identifier": "decret-loi/2011/41",
       "url": "http://www.legislation.tn/fr/detailtexte/D%C3%A9cret-loi-num-2011-41-du-26-05-2011-jort-2011-039__2011039004101",
       "status": "in_force",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "decret-loi-88-2011",
+      "title": "المرسوم عدد 88 لسنة 2011 المتعلق بتنظيم الجمعيات",
+      "title_fr": "Décret-loi n° 2011-88 portant organisation des associations",
+      "identifier": "decret-loi/2011/88",
+      "url": "http://www.legislation.tn/fr/detailtexte/Decret-loi-num-2011-88",
+      "status": "in_force",
+      "category": "act",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
@@ -304,38 +836,245 @@
     {
       "id": "constitution-2022",
       "title": "دستور الجمهورية التونسية 2022",
+      "title_fr": "Constitution de la République Tunisienne 2022",
       "identifier": "constitution/2022",
-      "url": "http://www.legislation.tn/fr/constitution/la-constitution-de-la-r%C3%A9publique-tunisienne",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/Constitution_2022/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/Constitution_2022/menu.html"
+      ],
       "status": "in_force",
-      "category": "act",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 81,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-statut-personnel",
+      "title": "مجلة الأحوال الشخصية",
+      "title_fr": "Code du Statut Personnel",
+      "identifier": "code/statut-personnel",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/csp/Menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/csp/Menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 0,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-tva",
+      "title": "مجلة الأداء على القيمة المضافة",
+      "title_fr": "Code de la Taxe sur la Valeur Ajoutée",
+      "identifier": "code/tva",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/tva/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/tva/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 0,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-procedure-penale",
+      "title": "مجلة الإجراءات الجزائية",
+      "title_fr": "Code de Procédure Pénale",
+      "identifier": "code/procedure-penale",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cpp/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cpp/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 10,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-telecommunications",
+      "title": "مجلة الاتصالات",
+      "title_fr": "Code des Télécommunications",
+      "identifier": "code/telecommunications",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/telecom/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/telecom/telcom1000.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/telecom/telcom1050.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/telecom/telcom1055.htm",
+        "https://www.jurisitetunisie.com/tunisie/codes/telecom/telcom1075.htm"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 29,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-obligations-contrats",
+      "title": "مجلة الالتزامات والعقود",
+      "title_fr": "Code des Obligations et des Contrats",
+      "identifier": "code/obligations-contrats",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/coc/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/coc/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-poste",
+      "title": "مجلة البريد",
+      "title_fr": "Code de la Poste",
+      "identifier": "code/poste",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/poste/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/poste/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 3,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-assurances",
+      "title": "مجلة التأمين",
+      "title_fr": "Code des Assurances",
+      "identifier": "code/assurances",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/assurance/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/assurance/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
       "classification": "ingestable",
       "ingested": true,
       "provision_count": 11,
       "ingestion_date": "2026-02-28"
     },
     {
-      "id": "code-obligations-contrats",
-      "title": "مجلة الالتزامات والعقود",
-      "identifier": "code/obligations-contrats",
-      "url": "http://www.legislation.tn/fr/detailtexte/Code-num-1906-1-du-15-12-1906-jort-2014-067__2014067000011",
+      "id": "code-arbitrage",
+      "title": "مجلة التحكيم",
+      "title_fr": "Code de l'Arbitrage",
+      "identifier": "code/arbitrage",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/ca/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/ca/menu.html"
+      ],
       "status": "in_force",
-      "category": "act",
+      "category": "code",
       "classification": "ingestable",
-      "ingested": false,
-      "provision_count": 0,
-      "ingestion_date": null
+      "ingested": true,
+      "provision_count": 49,
+      "ingestion_date": "2026-02-28"
     },
     {
-      "id": "code-assurances",
-      "title": "مجلة التأمين",
-      "identifier": "code/assurances",
-      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1992-24-du-09-03-1992-jort-1992-018__1992018000241",
-      "status": "amended",
-      "category": "act",
+      "id": "code-amenagement-urbanisme",
+      "title": "مجلة التهيئة الترابية والتعمير",
+      "title_fr": "Code de l'Aménagement du Territoire et de l'Urbanisme",
+      "identifier": "code/amenagement-urbanisme",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/catu/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/catu/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
       "classification": "ingestable",
-      "ingested": false,
+      "ingested": true,
+      "provision_count": 2,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-fiscalite-locale",
+      "title": "مجلة الجباية المحلية",
+      "title_fr": "Code de la Fiscalité Locale",
+      "identifier": "code/fiscalite-locale",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/flocal/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/flocal/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 13,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-collectivites-locales",
+      "title": "مجلة الجماعات المحلية",
+      "title_fr": "Code des Collectivités Locales",
+      "identifier": "code/collectivites-locales",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/ccl/menua.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/ccl/menua.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
       "provision_count": 0,
-      "ingestion_date": null
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-nationalite",
+      "title": "مجلة الجنسية التونسية",
+      "title_fr": "Code de la Nationalité Tunisienne",
+      "identifier": "code/nationalite",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/national/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/national/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 2,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-droits-reels",
+      "title": "مجلة الحقوق العينية",
+      "title_fr": "Code des Droits Réels",
+      "identifier": "code/droits-reels",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cdr/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cdr/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-droits-procedures-fiscaux",
+      "title": "مجلة الحقوق والإجراءات الجبائية",
+      "title_fr": "Code des Droits et Procédures Fiscaux",
+      "identifier": "code/droits-procedures-fiscaux",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cdpf/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cdpf/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
     },
     {
       "id": "code-douanes",
@@ -344,34 +1083,302 @@
       "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2008-34-du-02-06-2008-jort-2008-044__2008044000341",
       "status": "amended",
       "category": "act",
-      "classification": "ingestable",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
+    },
+    {
+      "id": "code-securite-prevention-risques",
+      "title": "مجلة السلامة والوقاية من أخطار الحريق والانفجار",
+      "title_fr": "Code de Sécurité et Prévention des Risques d'Incendie et d'Explosion",
+      "identifier": "code/securite-prevention-risques",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cspri/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cspri/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 12,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-societes-commerciales",
+      "title": "مجلة الشركات التجارية",
+      "title_fr": "Code des Sociétés Commerciales",
+      "identifier": "code/societes-commerciales",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cs/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cs/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 23,
+      "ingestion_date": "2026-02-28"
     },
     {
       "id": "code-travail",
       "title": "مجلة الشغل",
+      "title_fr": "Code du Travail",
       "identifier": "code/travail",
-      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1966-27-du-30-04-1966-jort-1966-021__1966021000271",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/ct/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/ct/menu.html"
+      ],
       "status": "amended",
-      "category": "act",
+      "category": "code",
       "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-presse",
+      "title": "مجلة الصحافة",
+      "title_fr": "Code de la Presse",
+      "identifier": "code/presse",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cpresse/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cpresse/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 25,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-irpp-is",
+      "title": "مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات",
+      "title_fr": "Code de l'Impôt sur le Revenu des Personnes Physiques et de l'Impôt sur les Sociétés",
+      "identifier": "code/irpp-is",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cirppis/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cirppis/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 40,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-route",
+      "title": "مجلة الطرقات",
+      "title_fr": "Code de la Route",
+      "identifier": "code/route",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cr/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cr/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 22,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-forestier",
+      "title": "مجلة الغابات",
+      "title_fr": "Code Forestier",
+      "identifier": "code/forestier",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1988-20",
+      "status": "amended",
+      "category": "code",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
     },
     {
-      "id": "code-irpp-is",
-      "title": "مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات",
-      "identifier": "code/irpp-is",
-      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1989-114-du-30-12-1989-jort-1989-087__1989087011401",
-      "status": "amended",
-      "category": "act",
+      "id": "code-dip",
+      "title": "مجلة القانون الدولي الخاص",
+      "title_fr": "Code de Droit International Privé",
+      "identifier": "code/dip",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cdip/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cdip/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
       "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 2,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-hydrocarbures",
+      "title": "مجلة المحروقات",
+      "title_fr": "Code des Hydrocarbures",
+      "identifier": "code/hydrocarbures",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/chydro/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/chydro/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 8,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-procedure-civile-commerciale",
+      "title": "مجلة المرافعات المدنية والتجارية",
+      "title_fr": "Code de Procédure Civile et Commerciale",
+      "identifier": "code/procedure-civile-commerciale",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cpcc/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cpcc/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 24,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-minier",
+      "title": "مجلة المناجم",
+      "title_fr": "Code Minier",
+      "identifier": "code/minier",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2003-30",
+      "status": "in_force",
+      "category": "code",
+      "classification": "inaccessible",
       "ingested": false,
       "provision_count": 0,
       "ingestion_date": null
+    },
+    {
+      "id": "code-ports-maritimes",
+      "title": "مجلة الموانئ البحرية",
+      "title_fr": "Code des Ports Maritimes",
+      "identifier": "code/ports-maritimes",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-2009-48",
+      "status": "in_force",
+      "category": "code",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "code-eaux",
+      "title": "مجلة المياه",
+      "title_fr": "Code des Eaux",
+      "identifier": "code/eaux",
+      "url": "http://www.legislation.tn/fr/detailtexte/Loi-num-1975-16",
+      "status": "amended",
+      "category": "code",
+      "classification": "inaccessible",
+      "ingested": false,
+      "provision_count": 0,
+      "ingestion_date": null
+    },
+    {
+      "id": "code-incitations-investissements",
+      "title": "مجلة تشجيع الاستثمارات",
+      "title_fr": "Code des Incitations aux Investissements",
+      "identifier": "code/incitations-investissements",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cii/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cii/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-patrimoine-archeologique",
+      "title": "مجلة حماية التراث الأثري والتاريخي",
+      "title_fr": "Code de la Protection du Patrimoine Archéologique, Historique et des Arts Traditionnels",
+      "identifier": "code/patrimoine-archeologique",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/patri/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/patri/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 27,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-protection-enfant",
+      "title": "مجلة حماية الطفل",
+      "title_fr": "Code de la Protection de l'Enfant",
+      "identifier": "code/protection-enfant",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cde/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cde/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 2,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-droits-enregistrement-timbre",
+      "title": "مجلة معاليم التسجيل والطابع الجبائي",
+      "title_fr": "Code des Droits d'Enregistrement et de Timbre",
+      "identifier": "code/droits-enregistrement-timbre",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/cdet/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/cdet/menu.html"
+      ],
+      "status": "amended",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 0,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-opc",
+      "title": "مجلة هيئات التوظيف الجماعي",
+      "title_fr": "Code des Organismes de Placement Collectif",
+      "identifier": "code/opc",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/copc/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/copc/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 29,
+      "ingestion_date": "2026-02-28"
+    },
+    {
+      "id": "code-deontologie-veterinaire",
+      "title": "مجلة واجبات الطبيب البيطري",
+      "title_fr": "Code de Déontologie du Médecin Vétérinaire",
+      "identifier": "code/deontologie-veterinaire",
+      "url": "https://www.jurisitetunisie.com/tunisie/codes/veteri/menu.html",
+      "jurisite_pages": [
+        "https://www.jurisitetunisie.com/tunisie/codes/veteri/menu.html"
+      ],
+      "status": "in_force",
+      "category": "code",
+      "classification": "ingestable",
+      "ingested": true,
+      "provision_count": 1,
+      "ingestion_date": "2026-02-28"
     }
   ]
 }

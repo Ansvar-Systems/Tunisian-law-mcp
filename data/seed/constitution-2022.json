@@ -2,91 +2,586 @@
   "id": "constitution-2022",
   "type": "statute",
   "title": "دستور الجمهورية التونسية 2022",
-  "title_en": "Constitution of the Republic of Tunisia 2022",
-  "short_name": "Constitution 2022",
+  "title_en": "Constitution de la République Tunisienne 2022",
+  "short_name": "Constitution de la République Tunisie...",
   "status": "in_force",
-  "issued_date": "2022-08-17",
-  "in_force_date": "2022-08-17",
-  "url": "http://www.legislation.tn/fr/constitution/la-constitution-de-la-r%C3%A9publique-tunisienne",
-  "description": "Constitution of the Republic of Tunisia, adopted by referendum on 25 July 2022",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://www.jurisitetunisie.com/tunisie/codes/Constitution_2022/menu.html",
   "provisions": [
     {
       "provision_ref": "art1",
+      "chapter": "Chapitre premier- Disposition générales",
       "section": "1",
-      "title": "الفصل 1",
-      "content": "تونس دولة حرّة، مستقلّة، ذات سيادة، الإسلام دينها، والعربية لغتها، والجمهورية نظامها. لا يجوز تعديل هذا الفصل.",
-      "chapter": "الباب الأول - أحكام عامة"
+      "title": "Article premier",
+      "content": "La Tunisie est un Etat libre, indépendant et souverain."
     },
     {
       "provision_ref": "art2",
+      "chapter": "Chapitre premier- Disposition générales",
       "section": "2",
-      "title": "الفصل 2",
-      "content": "تونس دولة مدنية، تقوم على المواطنة، وإرادة الشعب، وعلوية القانون. لا يجوز تعديل هذا الفصل.",
-      "chapter": "الباب الأول - أحكام عامة"
+      "title": "Article 2",
+      "content": "2. - Le régime de l’Etat tunisien est le régime républicain."
+    },
+    {
+      "provision_ref": "art3",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "3",
+      "title": "Article 3",
+      "content": "Le peuple tunisien est le détenteur de la souveraineté, il l’exerce dans les conditions fixées par la présente Constitution."
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "4",
+      "title": "Article 4",
+      "content": "La Tunisie est un Etat unitaire. Il n’est pas permis d’édicter toute législation portant atteinte à son unité."
     },
     {
       "provision_ref": "art5",
+      "chapter": "Chapitre premier- Disposition générales",
       "section": "5",
-      "title": "الفصل 5",
-      "content": "تونس جزء من الأمة العربية والإسلامية وعلى الدولة وحدها أن تعمل على تحقيق مقاصد الإسلام الحنيف في الحفاظ على النفس والعرض والمال والدين والحرية.",
-      "chapter": "الباب الأول - أحكام عامة"
+      "title": "Article 5",
+      "content": "La Tunisie constitue une partie de la nation islamique. Seul l’Etat doit œuvrer, dans un régime démocratique, à la réalisation des vocations de l’Islam authentique qui consistent à préserver la vie, l’honneur, les biens, la religion et la liberté."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "6",
+      "title": "Article 6",
+      "content": "La Tunisie constitue une partie de la nation arabe. La langue officielle est l’arabe."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "7",
+      "title": "Article 7",
+      "content": "La République tunisienne constitue une partie du Grand Maghreb arabe. Elle œuvre à la réalisation de son unité dans le cadre de l'intérêt commun."
+    },
+    {
+      "provision_ref": "art8",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "8",
+      "title": "Article 8",
+      "content": "- Le drapeau de l’Etat tunisien est rouge, il comporte, dans les conditions fixées par la loi, en son milieu, un cercle blanc où figure une étoile rouge à cinq branches entourée d’un croissant rouge."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "9",
+      "title": "Article 9",
+      "content": "9. - La devise de la République tunisienne est Liberté, Ordre, Justice."
+    },
+    {
+      "provision_ref": "art10",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "10",
+      "title": "Article 10",
+      "content": "Les armoiries de la République tunisienne sont définies par la loi."
+    },
+    {
+      "provision_ref": "art11",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "11",
+      "title": "Article 11",
+      "content": "L'hymne officiel de la République tunisienne est « Humat Al Hima \" (Défenseurs de la patrie)."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "12",
+      "title": "Article 12",
+      "content": "La famille est la cellule de base de la société. Il incombe à l’Etat de la protéger."
+    },
+    {
+      "provision_ref": "art13",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "13",
+      "title": "Article 13",
+      "content": "L’Etat veille à assurer les conditions propices au développement des capacités de la jeunesse et de mettre à sa disposition tous les moyens afin qu’il contribue activement au développement global du pays."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "14",
+      "title": "Article 14",
+      "content": "Défendre la patrie est un devoir sacré pour chaque citoyen."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "15",
+      "title": "Article 15",
+      "content": "L’acquittement de l’impôt et la contribution aux charges publiques constituent un devoir pour chaque personne sur la base de la justice et de l'équité. Toute évasion fiscale est considérée comme une infraction contre l'Etat et la société."
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "16",
+      "title": "Article 16",
+      "content": "Les richesses de la patrie appartiennent au peuple tunisien. L’Etat doit œuvrer à la répartition de leurs revenus sur la base de la justice et de l'équité entre les citoyens dans toutes les régions de la République. Les conventions et les contrats d’investissement relatifs aux richesses nationales sont soumis à l’Assemblée des représentants du peuple et au Conseil national des régions et des districts pour approbation."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "17",
+      "title": "Article 17",
+      "content": "L'Etat garantit la coexistence entre les secteurs public et privé et œuvre à assurer la complémentarité entre eux sur la base de la justice sociale."
+    },
+    {
+      "provision_ref": "art18",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "18",
+      "title": "Article 18",
+      "content": "- L'Etat doit fournir tous les moyens juridiques et matériels aux personnes en chêmage pour la création de projets de développement."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "19",
+      "title": "Article 19",
+      "content": "- L'administration publique et tous les services de l'Etat sont à la disposition du citoyen sur la base de l'impartialité et de l'égalité. Toute discrimination entre les citoyens en raison d’une quelconque appartenance est une infraction punie par la loi."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "20",
+      "title": "Article 20",
+      "content": "Cette disposition s'applique aux membres des instances indépendantes et à tout occupant d’un emploi supérieur."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Chapitre premier- Disposition générales",
+      "section": "21",
+      "title": "Article 21",
+      "content": "| / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> Des droits et les libertés - Constitution de la République Tunisienne 2022- Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre II - Des droits et des libertés |"
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "22",
+      "title": "Article 22",
+      "content": "- L&rsquo;Etat garantit aux citoyens et aux citoyennes les libertés et les droits individuels et collectifs. Il leur assure les conditions d&rsquo;une vie digne."
     },
     {
       "provision_ref": "art23",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "23",
-      "title": "الفصل 23",
-      "content": "تحمي الدولة كرامة الذات البشرية وحرمتها الجسدية، وتمنع التعذيب المعنوي والمادي. ولا تسقط جريمة التعذيب بالتقادم.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 23",
+      "content": "- Les citoyens et les citoyennes sont égaux en droits et en devoirs. Ils sont égaux devant la loi sans aucune discrimination."
     },
     {
       "provision_ref": "art24",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "24",
-      "title": "الفصل 24",
-      "content": "تحمي الدولة الحياة الخاصة وحرمة المسكن وسرية المراسلات والاتصالات والمعطيات الشخصية.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 24",
+      "content": "- Le droit à la vie est sacré. Il ne peut y être porté atteinte, que dans des cas extrêmes prévus par la loi."
     },
     {
       "provision_ref": "art25",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "25",
-      "title": "الفصل 25",
-      "content": "حرية الرأي والفكر والتعبير والإعلام والنشر مضمونة. لا يجوز ممارسة رقابة مسبقة على هذه الحريات.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 25",
+      "content": "- L’Etat protège la dignité de l’être humain et son intégrité physique et interdit la torture morale et physique. L’infraction de torture est imprescriptible."
+    },
+    {
+      "provision_ref": "art26",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "26",
+      "title": "Article 26",
+      "content": "- La liberté de l’individu est garantie."
     },
     {
       "provision_ref": "art27",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "27",
-      "title": "الفصل 27",
-      "content": "الحق في النفاذ إلى المعلومة مضمون.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 27",
+      "content": "- L’Etat garantit la liberté de croyance et de conscience."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "28",
+      "title": "Article 28",
+      "content": "- L’Etat protège le libre exercice des cultes tant qu’il ne porte atteinte à la sécurité publique."
+    },
+    {
+      "provision_ref": "art29",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "29",
+      "title": "Article 29",
+      "content": "La propriété intellectuelle est garantie."
+    },
+    {
+      "provision_ref": "art30",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "30",
+      "title": "Article 30",
+      "content": "Tout citoyen dispose de la liberté de choisir son lieu de résidence et de la liberté de circulation à l’intérieur du territoire ainsi que du droit de le quitter."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "31",
+      "title": "Article 31",
+      "content": "- Aucun citoyen ne peut être déchu de la nationalité tunisienne, ni être banni, extradé, ni empêché de revenir à son pays."
     },
     {
       "provision_ref": "art32",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "32",
-      "title": "الفصل 32",
-      "content": "تضمن الدولة الحق في الملكية الفكرية.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 32",
+      "content": "- Le droit d’asile politique est garanti dans les conditions fixées par la loi, il est interdit d’extrader les personnes qui bénéficient de l’asile politique."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "33",
+      "title": "Article 33",
+      "content": "- Tout prévenu est présumé innocent jusqu’à l’établissement de sa culpabilité, à la suite d’un procès équitable lui assurant toutes les garanties indispensables à sa défense au cours des différentes phases des poursuites et du procès."
+    },
+    {
+      "provision_ref": "art34",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "34",
+      "title": "Article 34",
+      "content": "- La peine est personnelle et ne peut être prononcée qu’en vertu d’un texte de loi antérieur, hormis le cas d’un texte plus favorable à l’inculpé."
+    },
+    {
+      "provision_ref": "art35",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "35",
+      "title": "Article 35",
+      "content": "- Aucune personne ne peut être arrêtée ou détenue, sauf en cas de flagrant délit ou en vertu d’une décision judiciaire. Elle est immédiatement informée de ses droits et de l’accusation qui lui est adressée. Elle a le droit de se faire représenter par un avocat. La durée de l’arrestation et de la détention est fixée par loi."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "36",
+      "title": "Article 36",
+      "content": "- Tout détenu a droit à un traitement humain qui préserve sa dignité. L’Etat prend en considération, lors de l’exécution des peines privatives de liberté, l’intérêt de la famille et veille à la réhabilitation du détenu et à sa réinsertion dans la société."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "37",
+      "title": "Article 37",
+      "content": "- Les libertés d’opinion, de pensée, d’expression, d’information et de publication sont garanties. Aucun contrôle préalable ne peut être exercé sur ces libertés."
+    },
+    {
+      "provision_ref": "art38",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "38",
+      "title": "Article 38",
+      "content": "- L’Etat garantit le droit à l’information et le droit d’accès à l’information. L’Etat œuvre en vue de garantir le droit d’accès aux réseaux de communication."
+    },
+    {
+      "provision_ref": "art39",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "39",
+      "title": "Article 39",
+      "content": "- Les droits d’élire, de voter et de se porter candidat sont garantis dans les conditions fixées par la loi."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "40",
+      "title": "Article 40",
+      "content": "- La liberté de constituer des partis politiques, des syndicats et des associations est garantie. Les partis politiques, les syndicats et les associations s’engagent dans leurs statuts et leurs activités à respecter les dispositions de la Constitution et de la loi, ainsi que la transparence financière et le rejet de la violence."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "41",
+      "title": "Article 41",
+      "content": "Ce droit ne s’applique pas à l’Armée nationale. Les magistrats, les forces de sécurité intérieure et la douane ne disposent pas du droit de grève."
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "42",
+      "title": "Article 42",
+      "content": "- La liberté de réunion et de manifestation pacifiques est garantie."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "43",
+      "title": "Article 43",
+      "content": "L’Etat garantit la prévention et les soins de santé à tout citoyen et fournit les ressources nécessaires afin d’assurer la sécurité et la qualité des services de santé. L’Etat garantit la gratuité des soins pour les personnes sans soutien ou ne disposant pas de ressources suffisantes. Il garantit le droit à la couverture sociale, dans les conditions fixées par la loi."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "44",
+      "title": "Article 44",
+      "content": "L’Etat garantit le droit à l’enseignement public gratuit à tous ses niveaux. Il veille à fournir les ressources nécessaires au service d’une éducation, d’un enseignement et d’une formation de qualité. L’Etat veille également à l’enracinement des jeunes générations dans leur identité arabe et islamique et leur appartenance nationale. Il veille à la consolidation de la langue arabe, sa promotion et sa généralisation. Il encourage l’ouverture sur les langues étrangères et les civilisations. Il veille à la diffusion de la culture des droits de l’Homme."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "45",
+      "title": "Article 45",
+      "content": "L’Etat fournit les ressources nécessaires à la création et au développement de la recherche scientifique."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "46",
+      "title": "Article 46",
+      "content": "Tout citoyen et toute citoyenne ont droit au travail dans des conditions décentes et à une juste rémunération."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "47",
+      "title": "Article 47",
+      "content": "- L’Etat garantit le droit à un environnement sain et équilibré et contribue à la protection du milieu. Il incombe à l’Etat de fournir les moyens nécessaires à l’élimination de la pollution de l’environnement."
+    },
+    {
+      "provision_ref": "art48",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "48",
+      "title": "Article 48",
+      "content": "- L'Etat doit fournir de l'eau potable à tous sur un pied d'égalité, et il doit préserver les ressources en eau pour les générations futures."
+    },
+    {
+      "provision_ref": "art49",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "49",
+      "title": "Article 49",
+      "content": "La liberté de création est garantie. L’Etat encourage la créativité culturelle et soutient la culture nationale dans son originalité, sa diversité et son innovation, en vue de consacrer les valeurs de tolérance, de rejet de la violence, d’ouverture sur les différentes cultures. L’Etat protège le patrimoine culturel et en garantit le droit au profit des générations futures."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "50",
+      "title": "Article 50",
+      "content": "L’Etat encourage les sports et s’emploie à fournir les ressources nécessaires à l’exercice des activités sportives et de loisir."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "51",
+      "title": "Article 51",
+      "content": "L’Etat s’engage à protéger les droits acquis de la femme et veille à les consolider et à les promouvoir. L’Etat garantit l’égalité des chances entre l’homme et la femme pour l’accès aux diverses responsabilités et dans tous les domaines. L’Etat s’emploie à consacrer la parité entre la femme et l’homme dans les assemblées élues. L’Etat prend les mesures susceptibles d’éliminer la violence à l’égard de la femme."
+    },
+    {
+      "provision_ref": "art52",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "52",
+      "title": "Article 52",
+      "content": "Les droits de l’enfant sont garantis. Il incombe à ses père et mère et à l’Etat de lui garantir la dignité, la santé, les soins, l’éducation et l’enseignement. L’Etat doit également fournir à tous les enfants toutes les formes de protection sans discrimination et conformément à l’intérêt supérieur de l’enfant. L’Etat prend en charge les enfants abandonnés ou de filiation inconnue."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "53",
+      "title": "Article 53",
+      "content": "L'Etat garantit l'aide aux personnes âgées dépourvues de soutien."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Chapitre II - Des droits et des libertés",
+      "section": "54",
+      "title": "Article 54",
+      "content": "L’Etat protège les personnes handicapées contre toute discrimination et prend toutes les mesures propres à leur garantir une entière intégration au sein de la société."
     },
     {
       "provision_ref": "art55",
+      "chapter": "Chapitre II - Des droits et des libertés",
       "section": "55",
-      "title": "الفصل 55",
-      "content": "لا توضع قيود على الحقوق والحريات المضمونة بهذا الدستور إلا بمقتضى قانون ولضرورة يقتضيها مجتمع ديمقراطي وبهدف حماية حقوق الغير أو لمقتضيات الأمن العام أو الدفاع الوطني أو الصحة العمومية أو الآداب العامة.",
-      "chapter": "الباب الثاني - الحقوق والحريات"
+      "title": "Article 55",
+      "content": "Aucune restriction ne peut être apportée aux droits et libertés garantis par la présente Constitution qu'en vertu d'une loi et pour répondre aux exigences d’un régime démocratique et en vue de sauvegarder les droits d’autrui ou pour répondre aux impératifs de la sûreté publique, de la défense nationale ou de la santé publique. Ces restrictions ne doivent pas porter atteinte à la substance des droits et libertés garantis par la présente Constitution, et elles doivent être justifiées par leurs objectifs et proportionnelles à leurs justifications. Aucune révision ne peut porter atteinte aux acquis en matière des droits de l'Homme et de libertés garantis par la présente Constitution. Les instances juridictionnelles assurent la protection des droits et libertés contre toute atteinte. | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> La fonction juridictionnelle - Constitution de la République Tunisienne - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre V - La fonction juridictionnelle |"
     },
     {
-      "provision_ref": "art87",
-      "section": "87",
-      "title": "الفصل 87",
-      "content": "رئيس الجمهورية هو رئيس الدولة ورمز وحدتها. يضمن استقلالها واستمراريتها ويسهر على احترام الدستور.",
-      "chapter": "الباب الرابع - الوظيفة التنفيذية"
+      "provision_ref": "art117",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "117",
+      "title": "Article 117",
+      "content": "- La magistrature est une fonction indépendante exercée par des magistrats qui ne sont soumis dans l’exercice de leurs fonctions qu’à l’autorité de la loi."
+    },
+    {
+      "provision_ref": "art118",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "118",
+      "title": "Article 118",
+      "content": "- Les jugements sont rendus au nom du peuple et exécutés au nom du Président de la République."
+    },
+    {
+      "provision_ref": "art119",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "119",
+      "title": "Article 119",
+      "content": "- La magistrature est composée de la justice judiciaire, administrative et financière. Chacune de ces catégories est supervisée par un conseil supérieur. La loi organise chacun des trois conseils susmentionnés."
+    },
+    {
+      "provision_ref": "art120",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "120",
+      "title": "Article 120",
+      "content": "- Les magistrats sont nommés par décret du Président de la République, sur proposition du Conseil supérieur de la magistrature intéressé."
+    },
+    {
+      "provision_ref": "art121",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "121",
+      "title": "Article 121",
+      "content": "En cas de crime ou délit flagrant, il peut être arrêté et le Conseil de la magistrature dont il relève en est informé. Celui-ci se prononce sur la demande de levée de l’immunité. Les dispositions du premier alinéa du présent article ne font pas obstacle à la mutation du magistrat pour nécessité de service. On entend par nécessité de service la nécessité de combler des vacances ou la nomination dans de nouvelles fonctions juridictionnelles ou pour faire face à une augmentation manifeste du volume de travail. Les magistrats sont égaux pour répondre à la nécessité de service. Le magistrat ne peut être appelé à changer son poste de travail pour nécessité de service qu’en l'absence de magistrats désirant rejoindre le poste de travail en question. A cet effet, les magistrats exerçant dans la plus proche circonscription juridictionnelle sont appelés à rejoindre le poste tout en adoptant la rotation, et, le cas échéant, il est fait recours au tirage au sort. Dans ce cas, la période d’exercice en réponse à la nécessité de service, ne peut dépasser un an sauf si le magistrat intéressé exprime explicitement sa volonté de rester au poste dans lequel il est muté ou nommé."
+    },
+    {
+      "provision_ref": "art122",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "122",
+      "title": "Article 122",
+      "content": "- Le magistrat doit être compétent. Il doit faire preuve d’impartialité et d’intégrité. Tout manquement de sa part engage sa responsabilité."
+    },
+    {
+      "provision_ref": "art123",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "123",
+      "title": "Article 123",
+      "content": "- L’Etat œuvre à garantir le droit au double degré de juridiction."
+    },
+    {
+      "provision_ref": "art124",
+      "chapter": "Chapitre V - La fonction juridictionnelle",
+      "section": "124",
+      "title": "Article 124",
+      "content": "| / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> La Cour constitutionnelle - Constitution de la République Tunisienne - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre VI - La Cour constitutionnelle |"
+    },
+    {
+      "provision_ref": "art125",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "125",
+      "title": "Article 125",
+      "content": "Les membres de la Cour constitutionnelle élisent parmi eux un président et un vice-président, dans les conditions fixées par la loi. Lorsqu’un membre atteint l'âge de la retraite, il est systématiquement remplacé par le membre qui le suit en ancienneté, à condition que le mandat ne soit, dans tous les cas, inférieur à un an."
+    },
+    {
+      "provision_ref": "art126",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "126",
+      "title": "Article 126",
+      "content": "- Le cumul de la qualité de membre de la Cour constitutionnelle avec l’exercice de toute autre fonction ou mission est interdit."
+    },
+    {
+      "provision_ref": "art127",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "127",
+      "title": "Article 127",
+      "content": "des lois, sur demande du Président de la République, de trente membres de l’Assemblée des représentants du peuple ou de la moitié des membres du Conseil national des régions et des districts. La Cour est saisie dans un délai de sept jours à compter de la date de l’adoption du projet de loi ou de la date de l’adoption du projet de loi amendé après renvoi par le Président de la République, - des traités que lui soumet le Président de la République avant la promulgation de la loi portant adoption de ces traités, - des lois que lui renvoient les tribunaux, suite à une exception d’inconstitutionnalité soulevée dans les cas et selon les procédures prévus par la loi, - des règlements intérieurs de l’Assemblée des représentants du peuple et du Conseil national des régions et des districts qui lui sont soumis par le Président de chacune des deux assemblées, - de la procédure de révision de la Constitution, - des projets de révision de la Constitution pour dire qu’ils ne concernent pas, d’après les termes de la présente Constitution, les dispositions qui ne peuvent faire l’objet de révision."
+    },
+    {
+      "provision_ref": "art128",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "128",
+      "title": "Article 128",
+      "content": "- La Cour rend sa décision à la majorité des deux tiers de ses membres, dans un délai de trente jours à compter de la date de dépêt du recours."
+    },
+    {
+      "provision_ref": "art129",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "129",
+      "title": "Article 129",
+      "content": "- La décision de la Cour énonce que les dispositions faisant l’objet de recours sont constitutionnelles ou inconstitutionnelles. Les décisions de la Cour sont motivées et s’imposent à tous. Elles sont publiées au Journal officiel de la République tunisienne."
+    },
+    {
+      "provision_ref": "art130",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "130",
+      "title": "Article 130",
+      "content": "Le Président de la République renvoie la loi, avant sa promulgation, devant la Cour constitutionnelle pour un nouvel examen de sa conformité ou compatibilité à la Constitution. En cas d’adoption d’un projet de loi amendé suite à son renvoi et dont la Cour a confirmé la constitutionnalité auparavant, le Président de la République le renvoie obligatoirement à la Cour constitutionnelle avant sa promulgation."
+    },
+    {
+      "provision_ref": "art131",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "131",
+      "title": "Article 131",
+      "content": "- Lorsque la Cour constitutionnelle est saisie d’un recours en inconstitutionnalité, elle se limite à examiner les griefs invoqués, sur lesquels elle statue dans un délai de deux mois renouvelable pour un mois par décision motivée. Lorsque la Cour constitutionnelle prononce l’inconstitutionnalité d’une loi, son application est suspendue, dans les limites de sa décision."
+    },
+    {
+      "provision_ref": "art132",
+      "chapter": "Chapitre VI - La Cour constitutionnelle",
+      "section": "132",
+      "title": "Article 132",
+      "content": "| / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> Les collectivités locales et régionales - Constitution de la République Tunisienne 2022 - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre VII - Les collectivités locales et régionales |"
+    },
+    {
+      "provision_ref": "art133",
+      "chapter": "Chapitre VII - Les collectivités locales et régionales",
+      "section": "133",
+      "title": "Article 133",
+      "content": "| / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> L'Instance supérieure indépendante pour les élections - Constitution de la République Tunisienne 2022 - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre VIII - L'Instance supérieure indépendante pour les élections |"
     },
     {
       "provision_ref": "art134",
+      "chapter": "Chapitre VIII - L'Instance supérieure indépendante pour les élections",
       "section": "134",
-      "title": "الفصل 134",
-      "content": "تُنشأ محكمة دستورية. تتركب من تسعة أعضاء من ذوي الكفاءة.",
-      "chapter": "الباب الخامس - السلطة القضائية"
+      "title": "Article 134",
+      "content": "L’Instance est dotée du pouvoir réglementaire dans son domaine de compétence. L’Instance se compose de neuf membres indépendants, neutres, compétents et intègres. Ils exercent leur mission pour un mandat de six ans non renouvelable. Le renouvellement du tiers de ses membres intervient tous les deux ans. | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> Le Conseil supérieur de l’éducation et de l’enseignement - Constitution de la République Tunisienne 2022 - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre IX - Le Conseil supérieur de l’éducation et de l’enseignement |"
+    },
+    {
+      "provision_ref": "art135",
+      "chapter": "Chapitre I",
+      "section": "135",
+      "title": "Article 135",
+      "content": "La loi fixe la composition de ce Conseil, ses attributions et les modalités de son fonctionnement. | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> La révision de la Constitution - Constitution de la République Tunisienne 2022 - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre X - La révision de la Constitution |"
+    },
+    {
+      "provision_ref": "art136",
+      "chapter": "Chapitre I",
+      "section": "136",
+      "title": "Article 136",
+      "content": "Le Président de la République peut soumettre au référendum les projets de révision de la Constitution. Toute initiative de révision de la Constitution est soumise obligatoirement par la partie initiatrice du projet de révision à la Cour constitutionnelle, afin de vérifier que celle-ci ne porte pas sur les matières qui ne peuvent faire l’objet de révision conformément à la présente Constitution."
+    },
+    {
+      "provision_ref": "art137",
+      "chapter": "Chapitre I",
+      "section": "137",
+      "title": "Article 137",
+      "content": "En cas de non-recours au référendum, le projet de révision de la constitution est approuvé par l'Assemblée des représentants du peuple à la majorité des deux tiers de ses membres en deux lectures, la seconde lecture intervenant trois mois au moins après la première."
+    },
+    {
+      "provision_ref": "art138",
+      "chapter": "Chapitre I",
+      "section": "138",
+      "title": "Article 138",
+      "content": "Le Président de la République promulgue sous forme de loi constitutionnelle la loi portant révision de la Constitution, dans un délai n’excédant pas quinze jours à compter de la date de proclamation des résultats du référendum. | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | | --> Dispositions transitoires et finales - Constitution de la République Tunisienne 2022 - Tunisie - - - - - - - . . --> | --> | | | | | C onstitution de la R épublique T unisienne 2022 | Chapitre XI - Dispositions transitoires et finales |"
+    },
+    {
+      "provision_ref": "art139",
+      "chapter": "Chapitre I",
+      "section": "139",
+      "title": "Article 139",
+      "content": "- Le décret Présidentiel n°2021-117 du 22 septembre 2021, relatif aux mesures exceptionnelles, continu à s’appliquer dans le domaine législatif, jusqu’à ce que l'Assemblée des représentants du peuple prenne ses fonctions après l’élection de ses membres."
+    },
+    {
+      "provision_ref": "art140",
+      "chapter": "Chapitre I",
+      "section": "140",
+      "title": "Article 140",
+      "content": "- Les dispositions relatives au Conseil national des régions et des districts entrent en vigueur après l’élection de ses membres et l’adoption de tous les textes y afférents."
+    },
+    {
+      "provision_ref": "art141",
+      "chapter": "Chapitre I",
+      "section": "141",
+      "title": "Article 141",
+      "content": "- La présente Constitution porte la date officielle du 25 juillet 2022, date du référendum, concrétisant la volonté du peuple à son attachement au régime républicain."
+    },
+    {
+      "provision_ref": "art142",
+      "chapter": "Chapitre I",
+      "section": "142",
+      "title": "Article 142",
+      "content": "Fait au palais de Carthage, le mercredi 19 moharem alharam 1444 / 17 août 2022. Kaïs Saïed Le Président de la République | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | |"
     }
   ],
-  "definitions": []
+  "definitions": [
+    {
+      "term": "2.",
+      "definition": "- Le régime de l’Etat tunisien est le régime républicain.",
+      "source_provision": "art2"
+    }
+  ]
 }

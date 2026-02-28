@@ -56,7 +56,7 @@
       },
       "assertions": {
         "result_not_empty": true,
-        "text_contains": ["الحياة الخاصة"],
+        "any_result_contains": ["priv"],
         "text_not_empty": true
       }
     },

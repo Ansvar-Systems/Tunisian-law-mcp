@@ -1,0 +1,32 @@
+{
+  "id": "code-commerce",
+  "type": "statute",
+  "title": "المجلة التجارية",
+  "title_en": "Code de Commerce",
+  "short_name": "Code de Commerce",
+  "status": "amended",
+  "issued_date": "",
+  "in_force_date": "",
+  "url": "https://www.jurisitetunisie.com/tunisie/codes/cc/menu.html",
+  "provisions": [
+    {
+      "provision_ref": "art1",
+      "section": "1",
+      "title": "Article premier",
+      "content": " Les textes publiés ci-après et relatifs au droit commercial sont réunis en un seul corps sous le titre de \" Code de Commerce \"."
+    },
+    {
+      "provision_ref": "art2",
+      "section": "2",
+      "title": "Article 2",
+      "content": " Les dispositions dudit Code sont mises en vigueur et appliquées à dater du 1er janvier 1960. Elles n'ont pas d'effet rétroactif. Toutefois, les procédures en cours à la date du 1er janvier 1960 restent soumises à la législation en vigueur à la date de la présente loi jusqu'à leur règlement définitif."
+    },
+    {
+      "provision_ref": "art3",
+      "section": "3",
+      "title": "Article 3",
+      "content": "Fait à Tunis, le 5 octobre 1959 | / Codes et lois en texte intégral / Les forums / Index et taux / Partages de successions | Copyright J urisite T unisie &copy; 2001- | |"
+    }
+  ],
+  "definitions": []
+}
