@@ -32,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Tunisia Law (legislation.tn) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'Legislation Tunisienne (legislation.tn) — Imprimerie Officielle de la Republique Tunisienne',
+    jurisdiction: 'TN',
     disclaimer:
-      'This data is sourced from Tunisia Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Tunisia Law portal (legislation.tn).',
+      'This data is sourced from Legislation Tunisienne. ' +
+      'The authoritative versions are in Arabic and French. ' +
+      'Always verify with the official portal (legislation.tn).',
     freshness,
   };
 }
