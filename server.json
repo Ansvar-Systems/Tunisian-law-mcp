@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "eu.ansvar/tunisian-law-mcp",
-  "description": "Tunisia legislation via MCP -- full-text search across statutes and provisions",
+  "description": "Tunisia law MCP — corpus quarantined 2026-04-26 pending Phase 4 backfill from official sources. The MCP boots and registers the standard tool surface; search returns no results.",
   "repository": {
     "url": "https://github.com/Ansvar-Systems/tunisian-law-mcp",
     "source": "github"
   },
   "homepage": "https://ansvar.eu",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "Apache-2.0",
   "keywords": [
     "tunisian-law",
@@ -20,18 +20,9 @@
     {
       "registryType": "npm",
       "identifier": "@ansvar/tunisian-law-mcp",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "transport": {
         "type": "stdio"
-      }
-    },
-    {
-      "registryType": "npm",
-      "identifier": "@ansvar/tunisian-law-mcp",
-      "version": "1.0.0",
-      "transport": {
-        "type": "streamable-http",
-        "url": "https://tunisian-law-mcp.vercel.app/mcp"
       }
     }
   ]
