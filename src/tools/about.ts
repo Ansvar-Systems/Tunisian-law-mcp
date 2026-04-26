@@ -38,15 +38,18 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
     name: 'Tunisia Law MCP',
     version: context.version,
     jurisdiction: 'TN',
-    description: 'Tunisia Law MCP — legislation via Model Context Protocol',
+    description:
+      'Tunisia Law MCP — corpus quarantined 2026-04-26 pending Phase 4 backfill from official primary sources. The MCP boots and registers tools but search returns no results.',
     stats,
-    data_sources: [
-      {
-        name: 'Legislation Tunisienne',
-        url: 'https://legislation.tn',
-        authority: 'Imprimerie Officielle de la Republique Tunisienne',
-      },
-    ],
+    data_sources: [],
+    quarantine: {
+      since: '2026-04-26',
+      reason: 'Source legitimacy remediation — see CHANGELOG.md 2.0.0 and sources.yml.',
+      backfill_candidates: [
+        'https://www.iort.gov.tn/ (JORT — Journal Officiel de la Republique Tunisienne)',
+        'https://juricaf.org/ (JuriCAF — francophone case law aggregator; Tunisian coverage to be verified)',
+      ],
+    },
     freshness: {
       database_built: context.dbBuilt,
     },

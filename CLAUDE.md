@@ -8,14 +8,14 @@
 
 ## Project Overview
 
-Tunisia Law MCP server providing Tunisian legislation search via Model Context Protocol. Strategy A deployment (Vercel, bundled SQLite DB). Covers constitution, codes (penal, civil, commercial, labor, tax, etc.), data protection, cybersecurity, e-commerce, banking, environment, and sector-specific laws.
+Tunisia Law MCP server providing Tunisian legislation search via Model Context Protocol. Corpus is quarantined as of 2026-04-26; the MCP boots and registers the standard tool surface, but search returns no results until Phase 4 backfill from clean primary sources.
 
 ## Architecture
 
-- **Transport:** Dual-channel -- stdio (npm package) + Streamable HTTP (Vercel serverless)
+- **Transport:** stdio (npm package)
 - **Database:** SQLite + FTS5 via `@ansvar/mcp-sqlite` (WASM-compatible, no WAL mode)
-- **Entry points:** `src/index.ts` (stdio), `api/mcp.ts` (Vercel HTTP)
-- **Tool registry:** `src/tools/registry.ts` -- shared between both transports
+- **Entry point:** `src/index.ts` (stdio)
+- **Tool registry:** `src/tools/registry.ts`
 - **Capability gating:** `src/capabilities.ts` -- detects available DB tables at runtime
 
 ## Key Conventions
@@ -39,25 +39,22 @@ Tunisia Law MCP server providing Tunisian legislation search via Model Context P
 ## Database
 
 - Schema defined inline in `scripts/build-db.ts`
-- Journal mode: DELETE (not WAL -- required for Vercel serverless)
-- Runtime: copied to `/tmp/database.db` on Vercel cold start
+- Journal mode: DELETE (not WAL -- required for WASM SQLite compatibility)
 - Metadata: `db_metadata` table stores tier, schema_version, built_at, builder
 
-## Data Pipeline
+## Data Pipeline (quarantined)
 
-1. `scripts/census.ts` -> enumerates all discoverable Tunisian laws -> `data/census.json`
-2. `scripts/ingest.ts` -> fetches from jurisitetunisie.com + legislation.tn -> JSON seed files in `data/seed/`
-3. `scripts/build-db.ts` -> seed JSON -> SQLite database in `data/database.db`
-4. `scripts/drift-detect.ts` -> verifies upstream content hasn't changed
+The previous pipeline (census -> ingest -> build-db) was withdrawn under the Red MCP Legal
+Remediation program. `scripts/ingest.ts` is now a quarantine stub that exits non-zero.
 
-## Data Sources
+To restore the pipeline:
+1. Declare a vetted source in `sources.yml` with documented reuse rights.
+2. Implement a new ingestion script targeting the vetted source.
+3. Replace the quarantine stub in `scripts/ingest.ts`.
 
-- **Primary:** jurisitetunisie.com (33+ codes in structured French HTML)
-- **Fallback:** legislation.tn (official government portal, often inaccessible)
-- **Supplementary:** africa-laws.org, FAOLEX, ILO NATLEX (sector laws)
-- **License:** Government Publication (public domain)
-- **Languages:** Arabic (ar) is the official language; French (fr) is the administrative/legal language
-- **Coverage:** Constitution, 33 major codes, 40+ individual laws, decrees, and decree-laws
+Backfill candidates under evaluation:
+- JORT (Journal Officiel de la Republique Tunisienne) -- https://www.iort.gov.tn/
+- JuriCAF Tunisia -- https://juricaf.org/ (Tunisian coverage to be verified)
 
 ## Tunisia-Specific Notes
 
@@ -68,11 +65,11 @@ Tunisia Law MCP server providing Tunisian legislation search via Model Context P
 - Legislation hierarchy: Constitution > Organic Laws > Laws > Decree-Laws > Decrees > Orders
 - Citations follow: "الفصل N من القانون عدد XX لسنة YYYY" or "Article N, Loi n YYYY-XX"
 - "مجلة" (majalla) = Code (codified collection of laws)
-- The INPDP (Instance Nationale de Protection des Données Personnelles) is the data protection authority
+- The INPDP (Instance Nationale de Protection des Donnees Personnelles) is the data protection authority
 - The 2004 Data Protection Law (Loi 2004-63) predates EU GDPR; update expected
-- The ANSI (Agence Nationale de la Sécurité Informatique) oversees cybersecurity under Law 2004-5
+- The ANSI (Agence Nationale de la Securite Informatique) oversees cybersecurity under Law 2004-5
 
 ## Deployment
 
-- Vercel Strategy A: DB bundled in `data/database.db`, included via `vercel.json` includeFiles
-- npm package: `@ansvar/tunisian-law-mcp` with bin entry for stdio
+- npm package: `@ansvar/tunisian-law-mcp` with bin entry for stdio transport
+- No Vercel deployment (decommissioned as part of the 2.0.0 scrub)
