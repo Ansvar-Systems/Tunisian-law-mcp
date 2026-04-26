@@ -1,113 +1,39 @@
 {
   "$schema": "./golden-tests.schema.json",
-  "version": "1.0",
+  "version": "2.0",
   "mcp_name": "Tunisia Law MCP",
-  "description": "Golden contract tests for the Tunisia Law MCP",
+  "description": "Golden contract tests for the Tunisia Law MCP. Corpus quarantined 2026-04-26 — every search returns an empty result set; every lookup returns not-found. Tests assert the empty-corpus contract until Phase 4 backfill restores coverage.",
   "tests": [
     {
-      "id": "tn-search-001",
+      "id": "search-empty-001",
       "category": "search",
-      "description": "Search for data protection provisions in Arabic",
+      "description": "While the corpus is quarantined, search must return zero results.",
       "tool": "search_legislation",
-      "input": {
-        "query": "حماية المعطيات الشخصية"
-      },
+      "input": { "query": "حماية المعطيات الشخصية", "limit": 5 },
       "assertions": {
-        "result_not_empty": true,
-        "min_results": 1,
-        "any_result_contains": ["المعطيات"]
+        "result_not_empty": false,
+        "max_results": 0
       }
     },
     {
-      "id": "tn-search-002",
+      "id": "search-empty-002",
       "category": "search",
-      "description": "Search for cybersecurity provisions",
+      "description": "Empty-corpus contract for any other query.",
       "tool": "search_legislation",
-      "input": {
-        "query": "السلامة المعلوماتية"
-      },
+      "input": { "query": "constitution", "limit": 5 },
       "assertions": {
-        "result_not_empty": true,
-        "min_results": 1,
-        "any_result_contains": ["المعلوماتية"]
+        "result_not_empty": false,
+        "max_results": 0
       }
     },
     {
-      "id": "tn-search-003",
-      "category": "search",
-      "description": "Search for privacy and personal life provisions",
-      "tool": "search_legislation",
-      "input": {
-        "query": "الحياة الخاصة"
-      },
-      "assertions": {
-        "result_not_empty": true,
-        "any_result_contains": ["الخاصة"]
-      }
-    },
-    {
-      "id": "tn-provision-001",
-      "category": "provision",
-      "description": "Get Article 24 of the Constitution (privacy)",
+      "id": "lookup-empty-001",
+      "category": "lookup",
+      "description": "While the corpus is quarantined, lookup of any document id must return not-found.",
       "tool": "get_provision",
-      "input": {
-        "document_id": "constitution-2022",
-        "article": "24"
-      },
+      "input": { "law": "constitution-2022", "article": "24" },
       "assertions": {
-        "result_not_empty": true,
-        "any_result_contains": ["priv"],
-        "text_not_empty": true
-      }
-    },
-    {
-      "id": "tn-provision-002",
-      "category": "provision",
-      "description": "Get Article 1 of the Data Protection Law",
-      "tool": "get_provision",
-      "input": {
-        "document_id": "loi-63-2004",
-        "article": "1"
-      },
-      "assertions": {
-        "result_not_empty": true,
-        "text_contains": ["المعطيات الشخصية"],
-        "text_not_empty": true
-      }
-    },
-    {
-      "id": "tn-about-001",
-      "category": "about",
-      "description": "Verify about/metadata endpoint runs without error",
-      "tool": "about",
-      "input": {},
-      "assertions": {
-        "result_not_empty": true
-      }
-    },
-    {
-      "id": "tn-search-004",
-      "category": "search",
-      "description": "Search for startup / innovation provisions",
-      "tool": "search_legislation",
-      "input": {
-        "query": "المؤسسات الناشئة"
-      },
-      "assertions": {
-        "result_not_empty": true,
-        "any_result_contains": ["الناشئة"]
-      }
-    },
-    {
-      "id": "tn-edge-001",
-      "category": "edge",
-      "description": "Handle empty search gracefully",
-      "tool": "search_legislation",
-      "input": {
-        "query": "xyznonexistent123"
-      },
-      "assertions": {
-        "handles_gracefully": true
+        "expect_error": true
       }
     }
   ]

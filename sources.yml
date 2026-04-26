@@ -3,51 +3,25 @@ schema_version: "2.0"
 mcp_name: "Tunisia Law MCP"
 jurisdiction: "TN"
 
-sources:
-  - name: "JurisiteTunisie"
-    authority: "Jurisite Tunisie (non-profit legal portal)"
-    official_portal: "https://www.jurisitetunisie.com"
-    canonical_identifier: "jurisitetunisie.com"
-    retrieval_method: "HTML scraping"
-    api_documentation: "N/A"
-    update_frequency: "as enacted"
-    last_ingested: "2026-02-28"
-    license_or_terms:
-      type: "Non-profit legal information"
-      url: "https://www.jurisitetunisie.com"
-      summary: "Non-profit legal portal providing Tunisian codes and laws in full text (French)"
-    coverage:
-      scope: "33 major codes in full text (French): Penal, Civil, Commercial, Labor, Tax, Insurance, Companies, Arbitration, Telecommunications, Urban Planning, and more"
-      limitations: "French text only (no Arabic). Some codes still 'in progress' on the portal."
-    languages:
-      - "fr"
+# CORPUS QUARANTINED 2026-04-26
+#
+# Per the Red MCP Legal Remediation program at
+# Ansvar-Architecture-Documentation/docs/superpowers/specs/2026-04-26-red-mcp-legal-remediation-design.md
+# this MCP no longer ingests from any source while clean primary sources
+# are evaluated for Phase 4 backfill. The container boots and registers the
+# standard MCP tool surface, but search returns no results.
+#
+# Backfill candidates under evaluation (per the program's Phase 0 cards):
+#   - JORT — Journal Officiel de la Republique Tunisienne (https://www.iort.gov.tn/) — open official gazette
+#   - JuriCAF Tunisia (https://juricaf.org/) — francophone case law aggregator; Tunisian coverage to be verified
+#
+# This MCP must NOT be re-pointed at any commercial or third-party legal
+# publisher (including the previously-used source jurisitetunisie.com)
+# without prior written rights evidence recorded against the entry below.
 
-  - name: "Tunisia Official Legal Database"
-    authority: "Government of Tunisia"
-    official_portal: "http://www.legislation.tn"
-    canonical_identifier: "legislation.tn"
-    retrieval_method: "HTML"
-    api_documentation: "N/A"
-    update_frequency: "as enacted"
-    last_ingested: "2026-02-28"
-    license_or_terms:
-      type: "Government Publication"
-      url: "http://www.legislation.tn"
-      summary: "Official government legal database; legislation is public domain as government publication"
-    coverage:
-      scope: "Individual laws, decrees, decree-laws (Arabic text). Constitution, data protection, cybersecurity, e-commerce, banking, investment, etc."
-      limitations: "Portal frequently inaccessible (503 errors). Arabic HTML structure varies."
-    languages:
-      - "ar"
-      - "fr"
+sources: []
 
 data_freshness:
   automated_checks: false
-  check_frequency: "monthly"
-  last_verified: "2026-02-28"
-
-# Notes:
-# - jurisitetunisie.com is the primary source (33 codes, structured French HTML)
-# - legislation.tn is the fallback (often inaccessible, 503 errors)
-# - Tunisia uses الفصل for articles (Francophone influence), Article N in French
-# - Bilingual corpus: Arabic (official) + French (administrative/legal)
+  check_frequency: "n/a — corpus quarantined"
+  last_verified: "2026-04-26"

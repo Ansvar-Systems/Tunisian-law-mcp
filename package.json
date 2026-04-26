@@ -1,8 +1,8 @@
 {
   "name": "@ansvar/tunisian-law-mcp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "mcpName": "eu.ansvar/tunisian-law-mcp",
-  "description": "Tunisia law database -- legislation from legislation.tn with full-text search, definitions, and EU cross-references",
+  "description": "Tunisia law MCP — corpus quarantined 2026-04-26 pending Phase 4 backfill from official sources. The MCP boots and registers the standard tool surface; search returns no results.",
   "author": "Ansvar Systems <hello@ansvar.eu>",
   "license": "Apache-2.0",
   "repository": {
@@ -31,8 +31,7 @@
     "sources.yml",
     "fixtures/",
     "LICENSE",
-    "README.md",
-    "data/census.json"
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
@@ -46,12 +45,9 @@
     "start": "node dist/src/index.js",
     "start:stdio": "node dist/src/index.js --stdio",
     "health": "curl -s http://localhost:3000/health | jq .",
-    "census": "tsx scripts/census.ts",
     "build:db": "tsx scripts/build-db.ts",
     "ingest": "tsx scripts/ingest.ts",
-    "drift:detect": "tsx scripts/drift-detect.ts",
-    "validate": "npm run lint && npm run test && npm run test:contract",
-    "check-updates": "node --import tsx scripts/check-updates.ts"
+    "validate": "npm run lint && npm run test && npm run test:contract"
   },
   "dependencies": {
     "@ansvar/mcp-sqlite": "^1.0.0",
@@ -61,7 +57,6 @@
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.0",
     "@types/node": "^22.0.0",
-    "@vercel/node": "^5.0.0",
     "better-sqlite3": "^11.10.0",
     "prettier": "^3.4.0",
     "tsx": "^4.19.0",
